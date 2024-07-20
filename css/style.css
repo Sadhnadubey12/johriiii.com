@@ -7514,7 +7514,6 @@ body, html {
     display: flex;
     transition: transform 0.3s ease-in-out;
     width: 100%;
-
 }
 .carousel-item {
     flex: 0 0 20%;
@@ -7529,7 +7528,7 @@ body, html {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    /* background-color: brown; */
+    background-color: gray; 
     color: white;
     border: none;
     padding: 5px;
@@ -7556,3 +7555,13 @@ h1 {
         flex: 0 0 20%;
     }
 }
+.zoom-on-scroll {
+    transform: scale(0.9);
+    transition: transform 0.5s ease-in-out;
+}
+.zoom-on-scroll.zoomed {
+    transform: scale(1.1);
+}
+
+
+  
