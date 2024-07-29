@@ -3013,7 +3013,7 @@ button:hover {
     line-height: 56px;
     color: #FFF;
     font-size: 28px;
-    background: #000;
+    /* background: white; */
     text-align: center
 }
 
@@ -7528,7 +7528,7 @@ body, html {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: gray; 
+    /* background-color: gray;  */
     color: white;
     border: none;
     padding: 5px;
@@ -7563,5 +7563,36 @@ h1 {
     transform: scale(1.1);
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value as needed */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.image-container {
+    display: inline-flex;
+    gap: 10px; /* Adjust as needed */
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+    display: block;
+}
 
   
